@@ -16,4 +16,8 @@ public:
     string getSequence() const;
 
     bool readFasta(const string& filePath);
+
+    void countNucleotides() const;
+
+    string transcribeToRNA() const;
 };
